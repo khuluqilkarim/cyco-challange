@@ -98,6 +98,22 @@ app.py , app, app., flag.txt, *, >, <. >>. |, &, $, ;, ~, [, ], #, !, -
    - = \x2D
 ```
 
+### Flag location
+
+```bash
+├── api
+│   ├── app.py
+│   ├── nino
+│   │   ├── flag
+│   │   │   └── flag.txt
+│   │   └── flag.txt
+│   └── __pycache__
+│       └── app.cpython-310.pyc
+├── flag.txt
+├── requirements.txt
+└── vercel.json
+```
+
 ### Payload
 
 ```bash
@@ -108,4 +124,18 @@ app.py , app, app., flag.txt, *, >, <. >>. |, &, $, ;, ~, [, ], #, !, -
 
 ```bash
 python3 main.py
+```
+
+```bash
+├── api
+│   ├── app.py
+│   ├── nino
+│   │   ├── flag
+│   │   │   └── flag.txt
+│   │   └── flag.txt
+│   └── __pycache__
+│       └── app.cpython-310.pyc
+├── flag.txt
+├── requirements.txt
+└── vercel.json
 ```
